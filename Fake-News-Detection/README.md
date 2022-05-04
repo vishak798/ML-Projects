@@ -12,9 +12,22 @@ Coronavirus (COVID-19) is an infectious disease that has resulted in an ongoing 
 - pandas>=0.19
 - regex>=2020.6.8
 
+## Dataset Used
+
+- Corona_fake_news Dataset in csv
+
 
 ## Data Processing Steps
 
 - Convert data to lower-case
 - Remove punctuation
 - Perform TF-IDF operation.
+
+## Model used for training 
+
+- Support Vector Machine 
+- Used GridSearchCV to find the right parameters
+
+## Results
+
+- Accuracy of 93%
